@@ -1,0 +1,53 @@
+body{
+    font-family:monospace,sans-serif;
+    font-size:25px;
+    text-align:center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 35em;
+    margin: 0 auto;
+    padding:25px;
+    background-color: #cecdcc;
+    color: #979797;
+}
+#myBox{
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 5px #969d96;
+    height:375px;
+    border: 6%;
+    padding-top: 80px;
+    margin-top: 88px;
+    background-color: #2b2b2b;
+}
+#time{
+    font-size: 60px;
+    margin-top:-60px; 
+}
+h3{
+    color: #6edf6e;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+#alarmHrs,#alarmMins,#alarmSecs,#mySelect{
+    width:100px;
+    padding:10px 25px;
+    margin:5px 0;
+    display:inline-block;
+    border-radius:5px ;
+    box-sizing: border-box;
+}
+button{
+    width:100px;
+    background-color: #4caf54;
+    color:whitesmoke;
+    padding:15px 12px;
+    margin:10px 0;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #b4b4bb;
+
+}
